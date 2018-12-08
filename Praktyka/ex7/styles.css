@@ -1,0 +1,17 @@
+.para{
+    color: red;
+}
+#kursywa{
+    color: coral;
+}
+.container p{
+    color: chartreuse;
+}
+
+.para1 + p{
+    color: cornflowerblue;
+}
+
+.para1 ~ p{
+    color: blueviolet;
+}
