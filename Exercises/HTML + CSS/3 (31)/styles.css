@@ -32,7 +32,7 @@ p,i{
     atrybuty do wykorzystania:
         color: white;
 */
-.container > p{
+.container p{
     color: white;
 }
 
@@ -61,17 +61,17 @@ p,i{
     atrybuty do wykorzystania:
     background-color: #FBFBFB;
 */
-.listHeader ~ item{
+.listHeader ~ div{
     background-color: #FBFBFB;
-
 }
-
-
 /*
     Dla pierwszego sąsiada elementu o klasie listHeader ustaw kolor tła
     atrybuty do wykorzystania:
     background-color: aquamarine;
 */
+.listHeader + div{
+    background-color: aquamarine;
+}
 
 
 
